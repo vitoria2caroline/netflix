@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+main{
+    width: 100%;
+}
+
+header{
+    display: flex; /*-- colocar em linha--*/
+    align-items: center; /*-- alinha o conteúdo ao centro vertical do container--*/
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+#Netflix{
+    width: 10%;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+   color: red;
+   font-size: 20px;
+   transition: all 0.8s;
+}
+
+.icone{
+    width: 25px;
+    height: 25px;
+}
+
+#pikachu{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#section_corpo{
+    display: flex;
+    justify-content: space-between; /*-- separa o texto para o outro lado--*/
+    width: 85%;
+    font-family: Arial;
+}
+
+#section_esquerda{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+#section_direita{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+#fundo{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+   z-index: -1;
+}
+
+#section_corpo{
+    display: flex;
+   align-items: center;
+    height: 90vh;
+    margin-left: 20px;
+} 
+  
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+#container_botao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 110%;
+}
+
+#botao1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 150px;
+    background-color: #fff;
+    border:none;
+    border-radius: 10px;
+}
+
+#play, #info {
+    height: 20px;
+}
+
+#botao2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 200px;
+    background-color: #fff;
+    border:none;
+    border-radius: 10px;
+}
+#imagens{
+    display: flex;
+    position: absolute;
+    top: 80%;
+}
+
+#imagens img{
+    width: 190px;
+    height: 180px;
+    margin-left: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#div1:hover{
+    cursor: pointer;
+    transform: translate(0, -12px);
+    transition: all 0.5s;
+}
+#div2:hover{
+    cursor: pointer;
+    transform: translate(0, -12px);
+    transition: all 0.5s;
+}
+#div3:hover{
+    cursor: pointer;
+    transform: translate(0, -12px);
+    transition: all 0.5s;
+}
+#div4:hover{
+    cursor: pointer;
+    transform: translate(0, -12px);
+    transition: all 0.5s;
+}
+#div5:hover{
+    cursor: pointer;
+    transform: translate(0, -12px);
+    transition: all 0.5s;
+}
+#div6:hover{
+    cursor: pointer;
+    transform: translate(0, -8px);
+    transition: all 0.5s;
+}
+#div7:hover{
+    cursor: pointer;
+    transform: translate(0, -8px);
+    transition: all 0.5s;
+}
